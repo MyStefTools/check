@@ -15,7 +15,7 @@ import json,redis
 from telebot import types
 from telebot.types import InlineKeyboardMarkup as mark
 from telebot.types import InlineKeyboardButton as btn
-bot = telebot.TeleBot("5992615572:AAGXg3Z40c2Mn2xGoJ4A5cxbrrfAD1Gyey4",num_threads=20)
+bot = telebot.TeleBot("6242422194:AAEZbujpaGPcf8IeSVYd8W6lUxggooJFFas",num_threads=20)
 r = redis.Redis(host="localhost",port=6379)
 @bot.message_handler(commands=['start'])
 def start(message):
